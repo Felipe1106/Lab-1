@@ -8,3 +8,22 @@
 >
 >> CodeSpace> java -cp "hamcrest-core-1.3.jar:junit-4.13.2.jar:."   org.junit.runner.JUnitCore     src.u.HybridTests
  
+>> git add -A
+
+>> git commit -a -m "good message"
+
+>> git push
+
+>> mvn archetype:generate \
+-DgroupId=com.softwareengineering.course \
+-DartifactId=cse2102 \
+-DarchetypeArtifactId=maven-archetype-quickstart \
+-DinteractiveMode=false
+
+>> cd cse2102
+
+>> ls
+
+>> mvn clean compile
+
+>> mvn test
